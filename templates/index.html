@@ -1,0 +1,57 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Rekomendasi Movie</title>
+{% endblock %}
+
+{% block body %}
+
+<div class="container-contact100">
+    <div class="wrap-contact100">
+        <form class="contact-form validate-form" action="/" method="POST">
+            <span class="contact100-form-title">
+                Deteksi Genre Movie
+            </span>
+
+    <div class="wrap-input100 validate-input"
+        <span class="label-input100">
+            Umur
+        </span>
+        <input class="input100" type="text" placeholder="Masukan umur" name="Umur" id="Umur" required>
+        <span class="focus-input100"></span> 
+    </div>
+
+    <div class="wrap-input100 validate-input"
+    <span class="label-input100">
+        Jenis Kelamin
+    </span>
+    <input class="input100" type="text" placeholder="Masukan Jenis Kelamin" name="Jenis Kelamin" id="Jenis_Kelamin" required>
+    <span class="focus-input100"></span> 
+</div>
+
+<div class="wrap-input100 validate-input"
+    <span class="label-input100">
+        Status
+    </span>
+    <input class="input100" type="text" placeholder="Single or Pacaran" name="Status" id="Status" required>
+    <span class="focus-input100"></span> 
+</div>
+
+<div class="container-contact100-form-btn">  
+              <div class="wrap-contact100-form-btn">  
+                <div class="contact100-form-bgbtn"></div>  
+                <button class="contact100-form-btn">  
+                  <span>  
+                    Rekomendasi  
+                   <i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>  
+                  </span>  
+                </button>  
+              </div>  
+            </div>  
+
+
+        </form>
+        
+    </div>
+</div>        
+{% endblock %}
